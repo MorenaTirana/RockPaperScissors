@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+#sfondo{
+    background: url(img/computergame.png);
+    width: 100%;
+    height: 100vh;
+    background-size: 500px 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+#gameDiv{
+    transform: translate(-2%, -30%);
+    width: 300px;
+    height: 400px;
+    margin-top: 15vw;
+    font-family: 'Caveat Brush', cursive;
+    border-radius: 25px;
+    padding: 0px;
+    text-align: center;
+    z-index: 9;
+}
+.choiceBtn{
+    line-height: 30px;
+    width: 80px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.choiceBtn:hover{
+    opacity: 0.7;
+}
+.choiceBtn:focus{
+    background-color: yellow;
+    color: #000;
+    border: none;
+    box-shadow: 2px 2px black;
+}
+#playerText{
+    color: blue;
+}
+#computerText{
+    color: red;
+}
+#resultText{
+    color: green;
+    margin-top: 160px;
+  
+}
